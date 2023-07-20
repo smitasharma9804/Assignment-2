@@ -310,9 +310,20 @@ button {
 
 .text {
     margin-top: 50%;
+
+}
+
+.text img {
+    width: 15%;
+    margin-bottom: 15px;
+
+}
+
+.text p {
     color: #FF42A5;
     font-weight: 600;
     font-size: 1rem;
+    margin-top: -20px;
 }
 
 .parent .content:hover {
@@ -448,6 +459,154 @@ button {
 
 }
 
+.section-6 {
+    margin-top: 25%;
+    margin-bottom: 10%;
+}
+
+.section-6-parent-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.section-6-parent-1 div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.section-6-parent-1 div:hover {
+    border: 1px solid #FF42A5;
+    border-radius: 30px;
+    color: #FF42A5;
+    padding: 5px 3px;
+
+
+}
+
+.section-6-parent-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-6-parent-2 div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+
+}
+
+.section-6-parent-2 div:hover {
+    border: 1px solid #FF42A5;
+    border-radius: 30px;
+    /* text-align: center; */
+    color: #FF42A5;
+    padding: 5px 3px;
+
+
+}
+
+.section-6-parent-1 div img,
+.section-6-parent-2 div img {
+    margin-right: 10px;
+    width: 20%;
+}
+
+.section-6-parent-1 div h4,
+.section-6-parent-2 div h4 {
+    margin-right: 50px;
+    font-size: .9rem;
+    font-weight: 600;
+    /* width: 20px; */
+}
+
+/* footer */
+footer {
+    background-color: rgb(3, 3, 37);
+    height: 70%;
+    padding: 5%;
+
+}
+
+.footer-gamer-div {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.footer-gamer-icon {
+    width: 5%;
+    /* margin-right: 50%; */
+    /* margin-bottom: -30px; */
+
+}
+
+.footer-h1 {
+    color: white;
+    margin-left: 20px;
+}
+
+.footer-G-span {
+    color: #FF42A5;
+}
+
+.footer-div-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-div-2 p {
+    margin-left: 10px;
+    color: white;
+    font-size: .8rem;
+}
+
+.img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+
+}
+
+.img img {
+    width: 3%;
+    margin: 20px 25px;
+
+}
+
+.footer-div-3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-top: 40px; */
+}
+
+.footer-div-3 p {
+    color: rgba(169, 169, 169, 0.76);
+    font-size: .7rem;
+    margin: 20px 30px;
+}
+
+.footer-end {
+    text-align: center;
+}
+
+.footer-end p {
+    color: rgba(169, 169, 169, 0.76);
+    font-size: .7rem;
+    margin-top: 30px;
+
+}
 
 @media screen and (max-width: 576px) {
 
